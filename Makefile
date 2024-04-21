@@ -23,7 +23,7 @@ $(LIBRARY):
 	 $(GNU) -c $^
 
 clean:
-	rm -f $(FRACTOL_OBJ)
+	rm -f $(CUB3D_OBJ)
 	cd libft && make fclean
 	cd minilibx_mac_cub3d && make clean
 fclean: clean
